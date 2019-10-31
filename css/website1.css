@@ -1,0 +1,189 @@
+@font-face{
+    src:url('../font/Corporation Games.otf');
+    font-family: "font-TC"; 
+}
+@font-face{
+    src:url('https://fonts.googleapis.com/css?family=Kanit|Staatliches&display=swap');
+    font-family: 'Staatliches', cursive;
+    font-family: 'Kanit', sans-serif;
+}
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #662171;
+    
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(25,12,40);
+    background: linear-gradient(0deg, rgba(25,12,40,1) 35%, rgba(28,12,38,1) 80%, rgba(84,9,0,1) 99%);
+    
+}
+
+.content{
+    animation: fadeIn 2s;
+}
+
+.nav{
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0 5%;
+}
+
+.nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+.nav li{
+    display: inline;
+}
+
+.nav a{
+    font-size: 20px;
+    display: inline-block;
+    color: whitesmoke;
+    padding: 10px 5%;
+    text-decoration: none;
+    font-weight: lighter;
+    font-family: 'Raleway', sans-serif;
+}
+
+.nav a:hover{
+    background-color: rgba(255, 255, 255, .90);
+    color: #662171;
+}
+
+.top-TC{
+    font-family: "font-TC";
+    font-size: 4em;
+    text-align: center;
+    color: white;
+    margin: 100px;
+    margin-bottom: 0;
+    font-weight: lighter;
+}
+
+.tagline-mid{
+    font-family: 'Staatliches', cursive;
+    font-size: 2em;
+    font-weight: lighter;
+    color: white;
+    text-align: center;
+}
+
+.paragraph1{
+    font-family: 'Staatliches', cursive;
+    color: white;
+    text-align: center;
+}
+
+.logo{
+    width: 10em;
+    display: block;
+    margin: auto;
+}
+
+.clock{
+    text-align: center;
+    font-size: 46px;
+    font-family: 'Staatliches', cursive;
+    color: white;
+}
+
+.footer{
+    text-align: center;
+    color: white;
+    font-family: 'Kanit', sans-serif;;
+    margin: 0;
+    animation: fadeIn 2s; 
+}
+
+.footer h5{
+    margin-block-start: 2em;
+    margin-block-end: 1em;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.footer a, a:visited{
+    color: white;
+    font-size: 40px;
+    margin: 40px;
+    padding: 2px 5px;
+    padding-bottom: 0px;
+    border: 2px solid;
+    border-radius: 50%;
+    border-color: white;
+    box-shadow: inset 0 0 0 0px white;
+    transition: color .8s, background-color 1s;
+}
+
+.footer a:hover{
+    background-color: white;
+    color: #190c28;
+}
+
+/* Popup container */
+/*.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    font-family: "font-TC";
+    font-size: 4em;
+    color: white;
+    margin: 100px;
+    margin-bottom: 0;
+    font-weight: lighter;
+}
+  /* The actual popup (appears on top) */
+/*.popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: justify;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+    font-family: 'Kanit', sans-serif;
+}
+  
+  /* Popup arrow */
+/*.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+  
+  /* Toggle this class when clicking on the popup container (hide and show the popup) */
+/*.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+  }
+  
+  /* Add animation (fade in the popup) */

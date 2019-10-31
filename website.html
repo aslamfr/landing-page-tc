@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <meta charset="UTF-8">
+        <title>Test Live Website</title>
+        <link href="css/website1.css" rel="stylesheet">
+        <link href="Fontawsome/css/all.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <header>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#">PAGE 1</a></li>
+                    <li><a href="#">PAGE 2</a></li>
+                    <li><a href="#">PAGE 3</a></li>
+                </ul>
+            </nav>
+            
+        </header>
+
+        <section class="content">
+            <h1 class="top-TC">TECHNOCORNER 2020</h1>
+
+            <!--<div class="popup" onclick="myFunction()">TECHNOCORNER 2020 
+                <span class="popuptext" id="myPopup">A Simple Popup!</span>
+            </div>
+            <script>
+                function myFunction() {
+                var popup = document.getElementById("myPopup");
+                popup.classList.toggle("show");
+                }
+            </script>-->
+
+            <h2 class="tagline-mid">ARE YOU READY FOR THE BIGGEST TECHNOLOGICAL WAR IN INDONESIA!!</h2>
+            <img class=logo src="Picture/logo fixxxx.jpg">
+        </section>
+
+        <section class="content">
+            <div class="clock">
+                <p id="demo"></p>
+                <script>
+                var countDownDate = new Date("Nov 1, 2019 15:37:25").getTime();
+                var x = setInterval(function() {
+                var now = new Date().getTime();
+                var distance = countDownDate - now;
+                var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                document.getElementById("demo").innerHTML = days + " Day(s) " + hours + " Hour(s) " + minutes + " Minute(s) " + seconds + " Second(s) ";
+                if (distance < 0) {
+                    clearInterval(x);
+                    document.getElementById("demo").innerHTML = "ITS HERE!!!";
+                    }
+                }, 1000);
+                </script>
+            </div>
+        </section>
+
+        <!--<section>
+            <div class="container">
+                <p id="timer">
+                    <span id="timer-days"></span>
+                    <span id="timer-hours"></span>
+                    <span id="timer-mins"></span>
+                    <span id="timer-secs"></span>
+                </p>
+            </div>
+            <script src="js/script.js"></script>
+        </section>-->
+
+        <!--<section>
+            <div class=paragraph1>
+                <p>Technocorner merupakan Pekan Teknologi yang dimiliki Departemen Teknik Elektro dan Teknologi Informasi FT UGM. Event ini menjadi wadah minat bakat penelitian dan pengembangan inovasi ilmu pengetahuan dan teknologi khususnya dalam bidang teknik elektro dan teknologi informasi, sehingga dapat menciptakan jiwa kompetitif di bidang ilmu pengetahuan dan teknologi untuk mempersiapkan diri dalam persaingan di era globalisasi
+                pengembangan inovasi ilmu pengetahuan dan teknologi khususnya dalam bidang teknik elektro dan teknologi informasi, sehingga dapat menciptakan jiwa kompetitif di bidang ilmu
+                pengetahuan dan teknologi untuk mempersiapkan diri dalam persaingan di era globalisasi
+                </p>
+            </div>
+        </section>-->
+        <footer class="footer">
+            <h5>Contact Us!</h5>
+            <div class="circle-foot">
+                <a href="https://instagram.com/technocornerugm?igshid=k3odpy26llxw" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+            <br>
+        </footer>
+    </body>
+</html>
